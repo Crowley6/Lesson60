@@ -1,0 +1,70 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.App {
+  max-width: 1440px;
+  min-width: 1440px;
+  margin: 0 auto;
+  -webkit-filter: drop-shadow(0px 0px 24px rgb(5, 5, 5));
+          filter: drop-shadow(0px 0px 24px rgb(5, 5, 5));
+}
+.App header {
+  height: 100px;
+  background-color: black;
+  border-radius: 0 0 1px 15px;
+}
+.App aside {
+  height: 800px;
+  width: 22%;
+  vertical-align: top;
+  margin: 0 0.5% 0 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.App aside ul {
+  width: 100%;
+  text-align: center;
+}
+.App aside ul li {
+  padding: 5px 0;
+}
+.App aside ul li a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.App aside ul li a:hover {
+  color: white;
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.App main {
+  width: 77%;
+  height: 800px;
+  background-color: rebeccapurple;
+  display: inline-block;
+  -webkit-clip-path: polygon(100% 0%, 98% 2%, 97% 4%, 97% 96%, 98% 98%, 100% 100%, 0% 100%, 2% 96%, 3% 92%, 3% 8%, 2% 4%, 0% 0%);
+          clip-path: polygon(100% 0%, 98% 2%, 97% 4%, 97% 96%, 98% 98%, 100% 100%, 0% 100%, 2% 96%, 3% 92%, 3% 8%, 2% 4%, 0% 0%);
+  -webkit-box-shadow: 10px 10px 10px red;
+          box-shadow: 10px 10px 10px red;
+  vertical-align: top;
+  margin: 0 0 0 0.5%;
+}
+.App footer {
+  border-radius: 15px 1px 0 0;
+  height: 100px;
+  background-color: black;
+}

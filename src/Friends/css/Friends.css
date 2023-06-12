@@ -1,0 +1,24 @@
+.Friends {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.Friends .Friends_Choose {
+  display: inline-block;
+  width: 23%;
+  background-color: rgba(245, 245, 245, 0.733);
+  min-height: 800px;
+  text-align: right;
+}
+.Friends .Friends_Messages {
+  display: inline-block;
+  min-width: 77%;
+  background-color: grey;
+  height: 100%;
+}
+.Friends .Friends_Messages textarea {
+  display: block;
+}
